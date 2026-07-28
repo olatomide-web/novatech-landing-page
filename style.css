@@ -73,4 +73,27 @@ body{
     max-width: var(--container-width);
     margin-inline: auto;
     padding-inline: var(--space-md);
+    
+}
+
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    display: flex;
+    gap: var(--space-md);
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+img{
+    max-width:100%;
+    display:block;
 }
