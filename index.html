@@ -3,12 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Preconnect to Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <title>novatech solutions</title>
+        <title>NovaTech Solutions | Software Development Company</title>
     </head>
     <body>
         <header>
-            logo
+            <img src="" alt="NovaTech Logo">
              <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -19,46 +23,63 @@
         </nav>
         </header>
 
-        <main id="hero">
+        <main>
+            <section id="home">
             
+            </section>
+
+            <section id="about">
+                <h2>About Us</h2>
+                <p>We are a leading technology solutions provider, dedicated to delivering innovative and reliable services to our clients.</p>
+            </section>
+
+            <section id="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Mobile App Development</li>
+                    <li>Cloud Solutions</li>
+                    <li>IT Consulting</li>
+                </ul>
+            </section>
+
+            <section id="why-choose-us">
+                <h2>Brief</h2>
+                <p>Our team of experts is committed to helping businesses leverage technology to achieve their goals and stay ahead in the competitive market.</p>
+            </section>
+
+            <section id="testimonials">
+                <h2>Testimonials</h2>
+                <p>"Novatech Solutions transformed our business with their innovative technology solutions. Highly recommended!" - Client A</p>
+                <p>"The team at Novatech Solutions is professional, knowledgeable, and a pleasure to work with." - Client B</p>
+
+            </section>
+
+            <section id="contact">
+
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <h2>Contact Us</h2>
+                <p>Get in touch with us today to learn more about our technology solutions.</p>
+            </section>
+
+
+            <footer>
+                <p>&copy; 2026 Novatech Solutions. All rights reserved.</p>
+            </footer>
         </main>
-
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are a leading technology solutions provider, dedicated to delivering innovative and reliable services to our clients.</p>
-        </section>
-
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Web Development</li>
-                <li>Mobile App Development</li>
-                <li>Cloud Solutions</li>
-                <li>IT Consulting</li>
-            </ul>
-        </section>
-
-        <section id="brief">
-            <h2>Brief</h2>
-            <p>Our team of experts is committed to helping businesses leverage technology to achieve their goals and stay ahead in the competitive market.</p>
-        </section>
-
-        <section id="testimonials">
-            <h2>Testimonials</h2>
-            <p>"Novatech Solutions transformed our business with their innovative technology solutions. Highly recommended!" - Client A</p>
-            <p>"The team at Novatech Solutions is professional, knowledgeable, and a pleasure to work with." - Client B</p>
-
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us today to learn more about our technology solutions.</p>
-        </section>
-
-
-        <footer>
-            <p>&copy; 2023 Novatech Solutions. All rights reserved.</p>
-        </footer>
+        
         <script src="script.js"></script>
     </body>
 </html>
